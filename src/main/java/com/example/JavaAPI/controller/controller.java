@@ -26,5 +26,9 @@ public class controller {
 
         return null;
     }
-
+    @GetMapping("/api/balance")
+    public String WelcomeBank(){
+        String balance="364500";
+        return balance;
+    }
 }
