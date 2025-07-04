@@ -12,6 +12,8 @@ public class controller {
         System.out.println("Welcome to ICICI Bank");
         return "Welcome to HDFC Bank";
     }
+
+
     @GetMapping("/api/myData")
     public String MylcomeBank(@RequestParam("name")String name){
         System.out.println("Welcome to HDFC Bank");
